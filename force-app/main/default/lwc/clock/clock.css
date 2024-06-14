@@ -1,0 +1,10 @@
+.container {
+    overflow: hidden;
+}
+
+.bar {
+    height: 50px;
+    background-color:brown;
+    color:cadetblue;
+}
+

@@ -1,0 +1,14 @@
+<template>
+    <lightning-card>
+        <lightning-input type="text" label="Name" value={namevalue} onchange={namechange}></lightning-input>
+        <lightning-input type="text" label="city" value={cityvalue} onchange={citychange}></lightning-input>
+        <lightning-input type="text" label=" Account Number" value={acvalues} onchange={ACchange}></lightning-input>
+    </br>
+
+        <lightning-button label="SAVE" variant="Brand" onclick={savehandle}></lightning-button>
+
+    <div class="slds-m-left_medium">
+        <lightning-button variant="brand" label="Next" onclick={handleNext}> </lightning-button>
+    </div>
+    </lightning-card>
+</template>
